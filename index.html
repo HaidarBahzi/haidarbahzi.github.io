@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Images/LOGO.webp" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <script src="https://kit.fontawesome.com/6842471005.js" crossorigin="anonymous"></script>
+    <title>HaidarBahzi - H_only</title>
+  </head>
+  <body>
+    <!--Loading Page-->
+    <div id="loading">
+      <div class="loader-rotate-slow">
+        <div class="loader-rotate-fast"></div>
+      </div>
+    </div>
+
+    <!--Navigation Bar-->
+    <nav>
+      <div class="nav-logo">
+        <a href=""><img src="Images/LOGO.webp" alt="Logo Picture" />HaidarBahzi</a>
+      </div>
+
+      <div class="nav-links">
+        <ul>
+          <li>
+            <a href="#Home">Home</a>
+          </li>
+
+          <li>
+            <a href="#About">About</a>
+          </li>
+
+          <li>
+            <a href="#Projects">Projects</a>
+          </li>
+
+          <li>
+            <a href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <ul class="nav-links-mobile">
+        <li>
+          <a href="#Home"><i class="fa-solid fa-house"></i></a>
+        </li>
+
+        <li>
+          <a href="#About"><i class="fa-solid fa-user"></i></a>
+        </li>
+
+        <li>
+          <a href="#Projects"><i class="fa-solid fa-diagram-project"></i></a>
+        </li>
+
+        <li>
+          <a href="#Contact"><i class="fa-solid fa-phone"></i></a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="Home" class="hidden">
+        <div class="home-image">
+          <img src="Images/Profile Picture.webp" alt="HaidarBahzi Photo" />
+        </div>
+
+        <div class="home-text">
+          <div class="typing">Iam Haidar Bahzi</div>
+          <h2>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis a molestias, fugiat sapiente laboriosam natus modi
+            nisi, iusto dignissimos expedita sunt ad assumenda nam officiis voluptatum doloremque. Culpa, minima eaque.
+          </h2>
+          <div class="home-interactive">
+            <a href="https://github.com/haidarbahzi"><button>Learn More</button></a>
+            <a href="#Projects"><button>View My Projects</button></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="About" class="hidden">
+        <div class="about-work">
+          <div class="work-title">
+            <span>What I Do?</span>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, accusamus exercitationem. Ad asperiores, natus
+              perferendis temporibus esse laudantium impedit neque, aliquam eveniet, provident quis velit amet distinctio commodi earum
+              ipsam!
+            </p>
+          </div>
+
+          <div class="work-persent">
+            <span>My Work</span>
+            <ul>
+              <li>
+                <div class="progress">
+                  <p>Website</p>
+                  <progress value="75" max="100"></progress>
+                </div>
+              </li>
+              <li>
+                <div class="progress">
+                  <p>Application</p>
+                  <progress value="30" max="100"></progress>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="about-technology">
+          <span>Technology I Use</span>
+          <ul>
+            <li><img src="Images/HTML.webp" alt="HTML Icon" /></li>
+            <li><img src="Images/CSS.webp" alt="CSS Icon" /></li>
+            <li><img src="Images/JavaScript.webp" alt="JavaScript Icon" /></li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="Projects" class="hidden">
+        <div class="project-title">
+          <span>My Projects</span>
+        </div>
+
+        <div class="project-container-sample">
+          <div class="project-sample">
+            <div class="project-text">
+              <span>TEDIKAP Website</span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, iste nobis! Unde voluptatum facilis excepturi? Dicta,
+                modi ipsum asperiores eveniet recusandae minus in cum nemo, suscipit culpa laboriosam, quod quasi!
+              </p>
+              <div class="project-interactive">
+                <a href="https://haidarbahzi.github.io/Tedikap" target="_blank"><button>View Demo</button></a>
+                <a href="https://codeload.github.com/haidarbahzi/Tedikap/zip/refs/heads/master"><button>Download</button></a>
+              </div>
+            </div>
+            <img src="Images/Sample-Web-Tedikap.webp" alt="TEDIKAP Website" />
+          </div>
+
+          <div class="project-sample">
+            <div class="project-text">
+              <span>HOPTIMIZE App</span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, nobis et eos repellat quos labore laboriosam nostrum,
+                temporibus ducimus harum in. Nostrum aut distinctio dolorum dolores doloremque. Eius, maiores delectus.
+              </p>
+              <div class="project-interactive">
+                <a href="https://github.com/haidarbahzi/HOPTIMIZE"><button>View Code</button></a>
+                <a href="https://github.com/haidarbahzi/HOPTIMIZE/archive/refs/heads/main.zip"><button>Download</button></a>
+              </div>
+            </div>
+            <img class="image-hoptimize" src="Images/Sample-App-Hoptimize.webp" alt="HOPTIMIZE Application" />
+          </div>
+        </div>
+      </section>
+
+      <section id="Contact" class="hidden">
+        <div class="contact-container">
+          <div class="contact-title">
+            <span>👋 Contact Me 👋</span>
+            <p id="response">Iam very honored to answer :)</p>
+          </div>
+          <form name="form-send">
+            <input type="text" name="nama" placeholder="John Doe" autocomplete="off" required />
+            <input type="email" name="email" placeholder="example@gmail.com" autocomplete="off" required />
+            <textarea name="pesan" required placeholder="Your Message" cols="30" rows="7"></textarea>
+            <input type="submit" id="submit" value="Send" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-contact">
+        <div class="sub-footer-contact">
+          <i class="fa-solid fa-envelope"></i>
+          <div class="footer-contact-text">
+            <span>Mail Me</span>
+            <p>biglamp.gang@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="sub-footer-contact">
+          <i class="fa-solid fa-phone"></i>
+          <div class="footer-contact-text">
+            <span>Call Me</span>
+            <p>+62 81-226-226-318</p>
+          </div>
+        </div>
+
+        <div class="sub-footer-contact">
+          <i class="fa-solid fa-location-dot"></i>
+          <div class="footer-contact-text">
+            <span>Find Me</span>
+            <p>Kaliwungu, Kudus, Jawa Tengah, Indonesia</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-main">
+        <div class="sub-footer-main">
+          <a href=""><img src="Images/LOGO.webp" alt="Logo" />HaidarBahzi</a>
+        </div>
+
+        <div class="sub-footer-main">
+          <span>Usefull Links</span>
+
+          <ul>
+            <li>
+              <a href="#Home">Home</a>
+            </li>
+
+            <li>
+              <a href="#About">About</a>
+            </li>
+
+            <li>
+              <a href="#Projects">Projects</a>
+            </li>
+
+            <li>
+              <a href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="sub-footer-main">
+          <span>My Social Media</span>
+
+          <ul>
+            <li>
+              <a href="https://instagram.com/haidarbahzi" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+
+            <li>
+              <a href="https://www.youtube.com/channel/UCK117SJa51cTV21mdkfirMA" target="_blank"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+            </li>
+
+            <li>
+              <a href="https://discord.gg/PGQUJqHHT4" target="_blank"><i class="fa-brands fa-discord"></i></a>
+            </li>
+
+            <li>
+              <a href="https://github.com/haidarbahzi" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-copyright">Copyright&copy; Haidar Bahzi 2022</div>
+    </footer>
+  </body>
+</html>

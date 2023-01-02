@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="404.css" />
+    <link rel="icon" href="Images/404.gif" />
+    <title>Ooops... Sorry</title>
+  </head>
+
+  <body>
+    <div class="error">
+      <div class="text"><span style="--urut: 1">4</span><span style="--urut: 2">0</span><span style="--urut: 3">4</span></div>
+      <p>Sorry, it seems we cannot find the page you are looking for</p>
+
+      <div class="interactive">
+        <button id="btn-back">Go Back</button>
+      </div>
+    </div>
+
+    <script>
+      document.getElementById("btn-back").addEventListener("click", function () {
+        window.open("https://haidarbahzi.github.io", "_self");
+      });
+    </script>
+  </body>
+</html>
